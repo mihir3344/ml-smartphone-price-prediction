@@ -1,5 +1,6 @@
-#Smartphone Price Prediction Model
-This repository contains a machine learning model for predicting the prices of smartphones based on various features such as brand, model, specifications, and other key attributes. The model is built using regression techniques and is designed to provide an estimate of a smartphone's price based on input data, making it a valuable tool for price forecasting in the mobile phone industry.
+# Smartphone Price Prediction Model
+
+This repository contains a machine learning model to predict smartphone prices based on various features such as brand, model, specifications, and more. Multiple regression models were tested to find the best-performing one for this task.
 
 Key Features:
 Data Preprocessing: Cleaned and processed data to handle missing values, categorical features, and scaling.
@@ -15,9 +16,6 @@ Matplotlib
 Jupyter Notebook
 Objective:
 To provide a robust predictive model for smartphone prices that can be utilized in various applications such as e-commerce platforms, price comparison websites, or market analysis tools.
-# Smartphone Price Prediction Model
-
-This repository contains a machine learning model to predict smartphone prices based on various features such as brand, model, specifications, and more. Multiple regression models were tested to find the best-performing one for this task.
 
 ## Performance Summary
 
