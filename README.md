@@ -1,4 +1,4 @@
-Smartphone Price Prediction Model
+#Smartphone Price Prediction Model
 This repository contains a machine learning model for predicting the prices of smartphones based on various features such as brand, model, specifications, and other key attributes. The model is built using regression techniques and is designed to provide an estimate of a smartphone's price based on input data, making it a valuable tool for price forecasting in the mobile phone industry.
 
 Key Features:
