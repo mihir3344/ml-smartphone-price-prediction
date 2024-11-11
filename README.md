@@ -43,19 +43,19 @@ To provide a robust predictive model for smartphone prices that can be utilized 
 
 The following table summarizes the performance of various regression models used in the smartphone price prediction task. The metrics include R² Score, RMSE, MAE, and MSE.
 
-| Model                        | R² Score  | RMSE        | MAE         | MSE         |
-|------------------------------|-----------|-------------|-------------|-------------|
-| **Linear Regression**         | 0.8718    | 569,726,784.74 ± 1,139,453,568.83 | 0.1706      | 0.0590      |
-| **Ridge Regression**          | 0.8793    | 0.2757 ± 0.0357      | 0.1627      | 0.0556      |
-| **Lasso Regression**          | -0.0033   | 0.6142 ± 0.0276      | 0.5527      | 0.4621      |
-| **ElasticNet Regression**     | -0.0033   | 0.6142 ± 0.0276      | 0.5527      | 0.4621      |
-| **Support Vector Regression** | 0.9006    | 0.2478 ± 0.0231      | 0.1524      | 0.0458      |
-| **K-Nearest Neighbors**       | 0.8392    | 0.2955 ± 0.0177      | 0.2117      | 0.0740      |
-| **Random Forest Regression**  | 0.9738    | 0.0658 ± 0.0559      | 0.0142      | 0.0121      |
-| **Gradient Boosting Regression** | 0.9465 | 0.0495 ± 0.0646      | 0.0164      | 0.0246      |
-| **AdaBoost Regression**       | 0.9513    | 0.0760 ± 0.0482      | 0.0470      | 0.0224      |
-| **Decision Tree Regression**  | 0.9439    | 0.0501 ± 0.0625      | 0.0163      | 0.0258      |
-| **MLP Regression**            | 0.8003    | 0.3166 ± 0.0214      | 0.2082      | 0.0920      |
+| Model                        | Cross-Validated RMSE    | Mean Absolute Error | Mean Squared Error | R-squared |
+|------------------------------|-------------------------|---------------------|--------------------|-----------|
+| **Linear Regression**         | 1721841028.1090 ± 3443682055.5570 | 0.1676              | 0.0551             | 0.8804    |
+| **Ridge Regression**          | 0.2970 ± 0.0730          | 0.1612              | 0.0560             | 0.8784    |
+| **Lasso Regression**          | 0.6142 ± 0.0276          | 0.5527              | 0.4621             | -0.0033   |
+| **ElasticNet Regression**     | 0.6142 ± 0.0276          | 0.5527              | 0.4621             | -0.0033   |
+| **Support Vector Regression** | 0.2114 ± 0.0183          | 0.1324              | 0.0353             | 0.9234    |
+| **K-Nearest Neighbors**       | 0.2771 ± 0.0103          | 0.1902              | 0.0713             | 0.8452    |
+| **Random Forest Regression**  | 0.0642 ± 0.0549          | 0.0166              | 0.0163             | 0.9645    |
+| **Gradient Boosting Regression** | 0.0464 ± 0.0634        | 0.0165              | 0.0243             | 0.9473    |
+| **AdaBoost Regression**       | 0.0726 ± 0.0479          | 0.0511              | 0.0231             | 0.9498    |
+| **Decision Tree Regression**  | 0.0553 ± 0.0623          | 0.0165              | 0.0258             | 0.9439    |
+| **MLP Regression**            | 0.5961 ± 0.2371          | 0.3008              | 0.1838             | 0.6009    |
 
 
 
